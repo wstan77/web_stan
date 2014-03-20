@@ -1,2 +1,35 @@
-<h1>Holamundo</h1>
-<p>Desde Rails by Stanley</p>
+
+<div class="large-6 columns">
+<h4>Bienvenido a chambreweb xD</h4>
+	<a href="#" data-reveal-id="firstModal" class="radius button">Presiona aqui para ver un chambre</a>
+	<a href="#" data-reveal-id="videoModal" class="radius button">Presiona aqui para ver un video :)</a>
+</div>
+
+
+<!-- Reveal Modals begin -->
+<div id="firstModal" class="reveal-modal" data-reveal>
+<h2>Jaja son pajas .</h2>
+	<p>Eso comprueba que eres meque xD.</p>
+	<p>Mas informacion sobre esta pagina...</p>
+	<p><a href="#" data-reveal-id="secondModal" class="secondary button">Aqui para ver mas...</a></p>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="secondModal" class="reveal-modal" data-reveal>
+	<h2>Jaja no hay nada que ver.</h2>
+	<p>:D</p>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="videoModal" class="reveal-modal large" data-reveal>
+	<h2>This modal has video</h2>
+	<div class="flex-video">
+		<iframe width="420" height="315" src="//www.youtube.com/embed/f67AF9hlI9M" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+
+    
+<script>
+$(document).foundation().foundation('joyride', 'start');
+</script>
