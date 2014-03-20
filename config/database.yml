@@ -1,0 +1,29 @@
+#--- Test git ignore ----
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  host: localhost
+  database: web_stan
+  username: postgres
+  password: developer
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  host: localhost
+  database: web_stan_test
+  username: postgres
+  password: developer
+
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  host: localhost
+  database: web_stan_prod
+  username: postgres
+  password: developer
