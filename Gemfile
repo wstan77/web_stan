@@ -13,7 +13,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails'
-gem 'asset_sync'
+#gem 'asset_sync'
 
 gem 'turbolinks'
 
@@ -26,7 +26,7 @@ end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
-# Use unicorn as the app server
+# Use unicorn as the app server	
 # gem 'unicorn'
 
 # Use Capistrano for deployment
