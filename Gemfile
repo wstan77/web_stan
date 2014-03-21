@@ -13,7 +13,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails'
-#gem 'asset_sync'
+gem 'asset_sync'
 
 gem 'turbolinks'
 
