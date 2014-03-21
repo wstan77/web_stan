@@ -1,6 +1,5 @@
-
+<h2 class="so-awesome" id="numero1"><i class="fi-address-book"></i>Bienvenidos todos</h2>
 <div class="large-6 columns">
-<h4>Bienvenido</h4>
 	<a href="#" data-reveal-id="firstModal" class="radius button">Presiona aqui para ver un chambre </a>
 	<a href="#" data-reveal-id="videoModal" class="radius button">Video que te puede interesar</a>
 </div>
@@ -30,5 +29,19 @@
 
     
 <script>
-$(document).foundation().foundation('joyride', 'start');
+$(document).foundation().foundation();
+$(document).foundation({
+  tooltips: {
+    selector : '.has-tip',
+    additional_inheritable_classes : [],
+    tooltip_class : '.tooltip',
+    touch_close_text: 'tap to close',
+    disable_for_touch: false,
+    tip_template : function (selector, content) {
+      return '<span data-selector="' + selector + '" class="'
+        + Foundation.libs.tooltips.settings.tooltipClass.substring(1)
+        + '">' + content + '<span class="nub"></span></span>';
+    }
+  }
+});
 </script>
